@@ -13,8 +13,6 @@ This repository contains a WebSocket echo server written in Rust. The server acc
 ### Running the Server
 
 ```bash
-git clone <repo-url>
-cd assessment
 docker compose up --build
 ```
 
@@ -25,7 +23,7 @@ The server will be available at `ws://localhost:8080`.
 You can verify the server is running with a quick manual test using any WebSocket client:
 
 ```bash
-# Using websocat (cargo install websocat)
+# Using websocat
 websocat ws://localhost:8080
 > hello
 echo: hello
