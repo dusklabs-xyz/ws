@@ -1,4 +1,4 @@
-# WebSocket Echo Server — QA Engineering Assessment
+# WebSocket Echo Server
 
 ## Overview
 
